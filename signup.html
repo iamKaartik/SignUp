@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico" type="icon">
+        <meta charset="utf-8">
+        
+        <title>Sign Up</title>
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <style>
+        .text-center{
+            width: 100%;
+            height: 100%;
+        }
+        .content{
+            padding: 100px 480px;
+        }
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+        }
+
+        .hello{
+            padding: 26px;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <link href="signUp.css" rel="stylesheet">
+    </head>
+
+    <body class="text-center">
+
+        <img src="vicara.jpg" alt="" width="100" height="100">
+        
+        <form class="form-signin  content">
+            <h1 class="h3 mb-3 font-weight-normal">Sign Up!</h1>
+            <label for="inputname" class="sr-only hello">full name</label>
+                <input type="name" id="inputname" class="form-control" placeholder="Full name" required="" autofocus=""> 
+            <label for="inputEmail" class="sr-only hello">Email address</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+            <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+        
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            <p class="mt-5 mb-3 text-muted">© Vicara</p>
+        </form>
+
+    </body>
+</html>
